@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+a:link {
+    
+    text-decoration: none;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    width: 10px;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+   width: 60px;
+
+}
+body {
+    background-color: rgba(0, 0, 0, 1);
+    background: url('../images/background.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+.return {
+    width: 50px!important;
+    height: 50px!important;
+    position: fixed;
+    top: 88%;
+    left: 2%;
+    text-align: center;
+    background: #313131;
+    border: 1px solid #fff;
+    font-size: 2.5em;
+    line-height: 50px;
+    color: #fff;
+    transition: 2s;
+    box-sizing: content-box;
+}
+.return:hover {
+    background:#f5f77f;
+    color: #1E82C0;
+    transition: 2s;
+}
+#page {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0 auto;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    background: rgb(49, 49, 49);
+    box-sizing: content-box;
+}
+#logo {
+    width: 100px;
+    border-radius: 50px;
+}
+#title {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+#pedido {
+    width: 500px;
+    margin-top: 15px;
+    padding: 0;
+}
+#tabelaMenu {
+    margin: 0 auto;
+    background:#fff;
+    border: unset;
+    outline: unset;
+    font-weight: bold;
+}
+#tabelaMenu td, #tabelaMenu th {
+    padding: 3px 10px;
+    border: 1px solid #8a8a8a;
+}
+.minusbutton {
+    margin-right: 5px;
+    background: rgb(214, 180, 180);
+    color: rgb(24, 24, 24);
+    cursor: pointer;
+    
+}
+.plusbutton {
+    margin-left: 5px;
+    background: rgb(180, 214, 180);
+    color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+.celulascentralizadas {
+    text-align: center;
+}
+#botaoPedido {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #302003;
+    cursor: pointer;
+    color: #302003;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    
+    background: linear-gradient( #f5f77f, #ff7300);  
+
+    -webkit-transition: background 1s ease-out;  
+    -moz-transition: background 1s ease-out;  
+    -o-transition: background 1s ease-out;  
+    transition: background 1s ease-out;  
+
+    background-size: 1px 120px;
+}
+#botaoPedido:Hover {
+      
+    background-position:50px;  
+}
+#tabelaResultado {
+    display: none;
+    margin-top: 15px;
+    background: #fff;
+}
+#tabelaResultado th, #tabelaResultado td {
+    padding: 0 20px;
+}
